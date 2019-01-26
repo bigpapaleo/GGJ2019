@@ -1,0 +1,749 @@
+﻿Log file open, 01/26/19 12:52:12
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GGJ2019
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.308498
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.291s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.26-18.52.13:158][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-18.52.13:158][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.26-18.52.13:242][  0]LogHAL: Display: Platform has ~ 8 GB [8502808576 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.26-18.52.13:242][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.26-18.52.13:242][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.26-18.52.13:243][  0]LogInit: Computer: LAPTOP-8MM05LH4
+[2019.01.26-18.52.13:243][  0]LogInit: User: danie
+[2019.01.26-18.52.13:243][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.26-18.52.13:243][  0]LogInit: High frequency timer resolution =1.757815 MHz
+[2019.01.26-18.52.13:243][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.01.26-18.52.13:243][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.26-18.52.13:243][  0]LogMemory: Process Physical Memory: 101.59 MB used, 101.59 MB peak
+[2019.01.26-18.52.13:243][  0]LogMemory: Process Virtual Memory: 90.84 MB used, 90.84 MB peak
+[2019.01.26-18.52.13:243][  0]LogMemory: Physical Memory: 3819.75 MB used,  4289.16 MB free, 8108.91 MB total
+[2019.01.26-18.52.13:243][  0]LogMemory: Virtual Memory: 4643.64 MB used,  4289.16 MB free, 134217728.00 MB total
+[2019.01.26-18.52.13:282][  0]LogInit: Using OS detected language (en-US).
+[2019.01.26-18.52.13:282][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.26-18.52.13:284][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.26-18.52.13:701][  0]LogStreaming: Display: Took  0.420s to InitEngineTextLocalization.
+[2019.01.26-18.52.13:701][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.26-18.52.13:749][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.26-18.52.13:749][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.26-18.52.14:033][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-18.52.14:033][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.26-18.52.14:049][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.01.26-18.52.14:049][  0]LogD3D11RHI:       128/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.01.26-18.52.14:054][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.26-18.52.14:054][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.26-18.52.14:054][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.26-18.52.14:062][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.26-18.52.14:062][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.26-18.52.14:062][  0]LogWindows: EnumDisplayDevices:
+[2019.01.26-18.52.14:062][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.01.26-18.52.14:062][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.01.26-18.52.14:062][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.01.26-18.52.14:063][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2019.01.26-18.52.14:063][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2019.01.26-18.52.14:063][  0]LogD3D11RHI:   Driver Version: 22.20.16.4815 (internal:22.20.16.4815, unified:22.20.16.4815)
+[2019.01.26-18.52.14:063][  0]LogD3D11RHI:      Driver Date: 9-26-2017
+[2019.01.26-18.52.14:063][  0]LogRHI: Texture pool is 1508 MB (70% of 2155 MB)
+[2019.01.26-18.52.14:073][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.26-18.52.14:080][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2019.01.26-18.52.14:081][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Intermediate/Shaders/WorkingDirectory/22084/).
+[2019.01.26-18.52.14:081][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/danie/AppData/Local/Temp/UnrealShaderWorkingDir/99D53F894279290073C8029640C24E59/'.
+[2019.01.26-18.52.14:523][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.26-18.52.14:538][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.26-18.52.14:554][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.26-18.52.14:568][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.26-18.52.14:583][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.26-18.52.14:597][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.26-18.52.14:613][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.26-18.52.14:629][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.26-18.52.14:636][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:721][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-18.52.14:723][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.26-18.52.14:788][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-18.52.14:788][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-18.52.14:813][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-18.52.14:813][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-18.52.14:827][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.26-18.52.14:841][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.26-18.52.14:855][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.26-18.52.14:870][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.26-18.52.14:879][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.26-18.52.14:879][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.26-18.52.14:962][  0]LogXGEController: Cleaning working directory: C:/Users/danie/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.26-18.52.14:962][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.26-18.52.14:962][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.26-18.52.14:962][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.26-18.52.16:022][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.26-18.52.16:105][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/danie/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-18.52.16:106][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/danie/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.26-18.52.16:106][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.26-18.52.16:106][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.26-18.52.16:106][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.26-18.52.16:106][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.26-18.52.16:120][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.26-18.52.16:133][  0]LogDerivedDataCache: Using Local data cache path C:/Users/danie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.26-18.52.16:133][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.26-18.52.16:133][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.26-18.52.16:152][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.26-18.52.16:153][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.26-18.52.16:169][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.26-18.52.16:440][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
+[2019.01.26-18.52.16:819][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-18.52.17:016][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.26-18.52.17:020][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.26-18.52.17:020][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.26-18.52.17:020][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.26-18.52.17:020][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.26-18.52.17:070][  0]LogNetVersion: GGJ2019 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 54619999)
+[2019.01.26-18.52.18:257][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.207107 seconds
+[2019.01.26-18.52.18:267][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.26-18.52.18:267][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.26-18.52.18:267][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.26-18.52.19:585][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.26-18.52.19:600][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.26-18.52.19:811][  0]SourceControl: Source control is disabled
+[2019.01.26-18.52.19:811][  0]SourceControl: Source control is disabled
+[2019.01.26-18.52.19:813][  0]SourceControl: Source control is disabled
+[2019.01.26-18.52.19:814][  0]SourceControl: Source control is disabled
+[2019.01.26-18.52.20:046][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.26-18.52.20:136][  0]LogOcInput: OculusInput pre-init called
+[2019.01.26-18.52.20:207][  0]LogEngine: Initializing Engine...
+[2019.01.26-18.52.20:208][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-18.52.20:210][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-18.52.20:210][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-18.52.20:211][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-18.52.20:211][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-18.52.20:670][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.26-18.52.20:688][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.26-18.52.20:700][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.52.21:002][  0]LogInit: FAudioDevice initialized.
+[2019.01.26-18.52.21:003][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.26-18.52.21:208][  0]LogDerivedDataCache: Saved boot cache 0.21s 71MB C:/Users/danie/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-18.52.21:230][  0]LogInit: Texture streaming: Enabled
+[2019.01.26-18.52.21:261][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.26-18.52.21:262][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={20041BBF-42C2-174E-17D8-6EA0B41E4EDB}
+[2019.01.26-18.52.21:284][  0]LogInit: Transaction tracking system initialized
+[2019.01.26-18.52.21:324][  0]BlueprintLog: New page: Editor Load
+[2019.01.26-18.52.21:461][  0]LocalizationService: Localization service is disabled
+[2019.01.26-18.52.22:752][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.26-18.52.22:752][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.26-18.52.22:752][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.26-18.52.22:752][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-18.52.22:752][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-18.52.22:752][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-18.52.22:752][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-18.52.23:105][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Content/' took 0.02s
+[2019.01.26-18.52.23:666][  0]SourceControl: Source control is disabled
+[2019.01.26-18.52.23:666][  0]Cmd: MAP LOAD FILE="../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Content/Maps/GGJlevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-18.52.23:667][  0]LightingResults: New page: Lighting Build
+[2019.01.26-18.52.23:672][  0]MapCheck: New page: Map Check
+[2019.01.26-18.52.23:672][  0]LightingResults: New page: Lighting Build
+[2019.01.26-18.52.25:413][  0]LogAIModule: Creating AISystem for world GGJlevel
+[2019.01.26-18.52.29:274][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-18.52.29:319][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-18.52.29:451][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 132.851ms to complete.
+[2019.01.26-18.52.29:452][  0]LogFileHelpers: Loading map 'GGJlevel' took 5.785
+[2019.01.26-18.52.29:754][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.52.29:765][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.52.29:773][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.52.29:783][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.52.29:800][  0]LogCollectionManager: Loaded 0 collections in 0.002632 seconds
+[2019.01.26-18.52.29:851][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/Collections/' took 0.01s
+[2019.01.26-18.52.29:851][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Content/Developers/danie/Collections/' took 0.01s
+[2019.01.26-18.52.29:851][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Content/Collections/' took 0.01s
+[2019.01.26-18.52.29:851][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.26-18.52.29:864][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2572 classes and 603 folders.
+[2019.01.26-18.52.29:873][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.26-18.52.30:945][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.26-18.52.30:956][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.26-18.52.32:304][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.01.26-18.52.32:337][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.26-18.52.32:339][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.26-18.52.32:362][  0]LogSlate: Took 0.013445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.26-18.52.32:631][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GGJ2019
+[2019.01.26-18.52.32:631][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.26-18.52.32:631][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2019.01.26-18.52.32:631][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.26-18.52.32:631][  0]LogTemp: BranchPath = LAPTOP-8MM05LH4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = LAPTOP-8MM05LH4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.01.26-18.52.32:631][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\danie\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.01.26-18.52.32:631][  0]LogRenderer: Reallocating scene render targets to support 780x384 Format 9 NumSamples 1 (Frame:1).
+[2019.01.26-18.52.35:024][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.26-18.52.35:025][  0]LogLoad: (Engine Initialization) Total time: 24.84 seconds
+[2019.01.26-18.52.35:025][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.26-18.52.35:044][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.26-18.52.35:088][  0]LogContentStreaming: Texture pool size now 600 MB
+[2019.01.26-18.52.35:385][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-18.52.35:443][  1]LogAssetRegistry: Asset discovery search completed in 19.0254 seconds
+[2019.01.26-18.52.35:445][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.26-18.52.35:445][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
+[2019.01.26-18.52.36:374][  5]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-18.52.38:991][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.52.39:857][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.52.43:105][254]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/SpawnBadguy.SpawnBadguy
+[2019.01.26-18.52.43:791][254]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2019.01.26-18.52.44:818][254]LogSlate: Took 0.044411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.26-18.52.44:963][255]LogSlate: Took 0.004890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.26-18.52.49:155][463]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/Badguy.Badguy
+[2019.01.26-18.53.35:652][178]BlueprintLog: New page: Compile Badguy
+[2019.01.26-18.53.35:915][178]LogBlueprint: Warning: [Compiler Badguy] 'House' does not inherit from 'Character' ( Cast To house  would always fail).
+[2019.01.26-18.53.36:098][178]LogBlueprint: Warning: [Compiler Badguy] [0085.91] Compile of Badguy successful, but with 1 Warning(s) [in 446 ms] (/Game/ThirdPersonBP/Blueprints/Badguy.Badguy)
+[2019.01.26-20.15.59:016][410]LogHttp: Warning: 000001EC8B77AD40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.01.26-20.15.59:016][410]LogHttp: Warning: 000001EC8B77AD40: libcurl info message cache 0 (Connection 0 seems to be dead!)
+[2019.01.26-20.15.59:016][410]LogHttp: Warning: 000001EC8B77AD40: libcurl info message cache 1 (Closing connection 0)
+[2019.01.26-20.15.59:016][410]LogHttp: Warning: 000001EC8B77AD40: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.01.26-20.15.59:016][410]LogHttp: Warning: 000001EC8B77AD40: libcurl info message cache 3 (Closing connection 1)
+[2019.01.26-20.16.00:591][411]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/GGJlevel_Auto1DDF66A2A4A163275BD13F79035FCFC52.tmp' to '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/Autosaves/Game/Maps/GGJlevel_Auto1.umap'
+[2019.01.26-20.16.00:597][411]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GGJlevel' took 0.755
+[2019.01.26-20.16.00:597][411]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.755
+[2019.01.26-20.16.00:599][411]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Badguy] ([1] browsable assets)...
+[2019.01.26-20.16.00:618][411]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Badguy.Badguy]
+[2019.01.26-20.16.00:619][411]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Badguy]
+[2019.01.26-20.16.00:684][411]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/Badguy_Auto1F3F78930455E614FDC88108FA0F7098E.tmp' to '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Badguy_Auto1.uasset'
+[2019.01.26-20.16.00:687][411]LogFileHelpers: Auto-saving content packages took 0.090
+[2019.01.26-20.16.32:340][210]BlueprintLog: New page: Compile Badguy
+[2019.01.26-20.16.32:359][210]LogBlueprint: Warning: [Compiler Badguy] 'House' does not inherit from 'Character' ( Cast To house  would always fail).
+[2019.01.26-20.16.32:518][210]LogBlueprint: Warning: [Compiler Badguy] [5062.35] Compile of Badguy successful, but with 1 Warning(s) [in 178 ms] (/Game/ThirdPersonBP/Blueprints/Badguy.Badguy)
+[2019.01.26-20.17.22:208][133]BlueprintLog: New page: Compile Badguy
+[2019.01.26-20.17.22:311][133]LogBlueprint: Warning: [Compiler Badguy] 'House' does not inherit from 'Character' ( Cast To house  would always fail).
+[2019.01.26-20.17.22:473][133]LogBlueprint: Warning: [Compiler Badguy] [5112.31] Compile of Badguy successful, but with 1 Warning(s) [in 264 ms] (/Game/ThirdPersonBP/Blueprints/Badguy.Badguy)
+[2019.01.26-20.17.59:127][324]LogHttp: Warning: 000001EC5C6B2C00: request failed, libcurl error: 35 (SSL connect error)
+[2019.01.26-20.17.59:127][324]LogHttp: Warning: 000001EC5C6B2C00: libcurl info message cache 0 (  Trying 34.196.66.229...)
+[2019.01.26-20.17.59:127][324]LogHttp: Warning: 000001EC5C6B2C00: libcurl info message cache 1 (TCP_NODELAY set)
+[2019.01.26-20.17.59:127][324]LogHttp: Warning: 000001EC5C6B2C00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.196.66.229) port 443 (#2))
+[2019.01.26-20.17.59:127][324]LogHttp: Warning: 000001EC5C6B2C00: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2019.01.26-20.17.59:127][324]LogHttp: Warning: 000001EC5C6B2C00: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.01.26-20.17.59:127][324]LogHttp: Warning: 000001EC5C6B2C00: libcurl info message cache 5 (SSL re-using session ID)
+[2019.01.26-20.17.59:127][324]LogHttp: Warning: 000001EC5C6B2C00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2019.01.26-20.17.59:127][324]LogHttp: Warning: 000001EC5C6B2C00: libcurl info message cache 7 (TLSv1.0 (OUT), TLS alert, Server hello (2):)
+[2019.01.26-20.17.59:127][324]LogHttp: Warning: 000001EC5C6B2C00: libcurl info message cache 8 (error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number)
+[2019.01.26-20.17.59:127][324]LogHttp: Warning: 000001EC5C6B2C00: libcurl info message cache 9 (Closing connection 2)
+[2019.01.26-20.18.05:061][598]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/GGJlevel_Auto2B6399EF44D6DD7EB99B939863181D8E6.tmp' to '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/Autosaves/Game/Maps/GGJlevel_Auto2.umap'
+[2019.01.26-20.18.05:099][598]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GGJlevel' took 1.220
+[2019.01.26-20.18.05:099][598]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.220
+[2019.01.26-20.18.05:110][598]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Badguy] ([1] browsable assets)...
+[2019.01.26-20.18.05:173][598]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Badguy.Badguy]
+[2019.01.26-20.18.05:173][598]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Badguy]
+[2019.01.26-20.18.05:398][598]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/Badguy_Auto24BC98F284FAE869D303649ADDBEE5D2B.tmp' to '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Badguy_Auto2.uasset'
+[2019.01.26-20.18.05:409][598]LogFileHelpers: Auto-saving content packages took 0.304
+[2019.01.26-20.18.42:068][751]LogSlate: Took 0.013401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.01.26-20.18.50:176][210]BlueprintLog: New page: Compile Badguy
+[2019.01.26-20.18.50:214][210]LogBlueprint: Warning: [Compiler Badguy] 'House' does not inherit from 'Character' ( Cast To house  would always fail).
+[2019.01.26-20.18.50:633][210]LogBlueprint: Warning: [Compiler Badguy] [5200.47] Compile of Badguy successful, but with 1 Warning(s) [in 456 ms] (/Game/ThirdPersonBP/Blueprints/Badguy.Badguy)
+[2019.01.26-20.19.10:171][327]BlueprintLog: New page: Compile Badguy
+[2019.01.26-20.19.10:198][327]LogBlueprint: Warning: [Compiler Badguy] 'House' does not inherit from 'Character' ( Cast To house  would always fail).
+[2019.01.26-20.19.10:423][327]LogBlueprint: Warning: [Compiler Badguy] [5220.26] Compile of Badguy successful, but with 1 Warning(s) [in 251 ms] (/Game/ThirdPersonBP/Blueprints/Badguy.Badguy)
+[2019.01.26-20.19.17:069][697]BlueprintLog: New page: Compile Badguy
+[2019.01.26-20.19.59:222][105]LogHttp: Warning: 000001EC8A571940: request failed, libcurl error: 35 (SSL connect error)
+[2019.01.26-20.19.59:223][105]LogHttp: Warning: 000001EC8A571940: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.01.26-20.19.59:223][105]LogHttp: Warning: 000001EC8A571940: libcurl info message cache 1 (  Trying 54.85.16.28...)
+[2019.01.26-20.19.59:223][105]LogHttp: Warning: 000001EC8A571940: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.01.26-20.19.59:223][105]LogHttp: Warning: 000001EC8A571940: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (54.85.16.28) port 443 (#3))
+[2019.01.26-20.19.59:223][105]LogHttp: Warning: 000001EC8A571940: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.01.26-20.19.59:223][105]LogHttp: Warning: 000001EC8A571940: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.01.26-20.19.59:223][105]LogHttp: Warning: 000001EC8A571940: libcurl info message cache 6 (SSL re-using session ID)
+[2019.01.26-20.19.59:223][105]LogHttp: Warning: 000001EC8A571940: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2019.01.26-20.19.59:223][105]LogHttp: Warning: 000001EC8A571940: libcurl info message cache 8 (TLSv1.0 (OUT), TLS alert, Server hello (2):)
+[2019.01.26-20.19.59:223][105]LogHttp: Warning: 000001EC8A571940: libcurl info message cache 9 (error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number)
+[2019.01.26-20.19.59:223][105]LogHttp: Warning: 000001EC8A571940: libcurl info message cache 10 (Closing connection 3)
+[2019.01.26-20.20.09:235][626]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/GGJlevel_Auto3A8D8514C46D36FEAA0C507A8B03FD8F9.tmp' to '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/Autosaves/Game/Maps/GGJlevel_Auto3.umap'
+[2019.01.26-20.20.09:244][626]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GGJlevel' took 0.532
+[2019.01.26-20.20.09:244][626]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.532
+[2019.01.26-20.20.09:248][626]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Badguy] ([1] browsable assets)...
+[2019.01.26-20.20.09:273][626]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Badguy.Badguy]
+[2019.01.26-20.20.09:273][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Badguy]
+[2019.01.26-20.20.09:333][626]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/Badguy_Auto3F2DF078349CB1913CFA527B1642539DF.tmp' to '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Badguy_Auto3.uasset'
+[2019.01.26-20.20.09:338][626]LogFileHelpers: Auto-saving content packages took 0.093
+[2019.01.26-20.20.24:545][464]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UAIBlueprintHelperLibrary::SimpleMoveToLocation' [Element not found.]
+[2019.01.26-20.20.52:770][104]BlueprintLog: New page: Compile Badguy
+[2019.01.26-20.21.20:234][680]LogClass: Warning: In asset 'None', there is an enum property of type 'EAutoReceiveInput' with an invalid value of ''
+[2019.01.26-20.21.20:234][680]LogClass: Warning: In asset 'None', there is an enum property of type 'EAutoReceiveInput' with an invalid value of ''
+[2019.01.26-20.21.20:234][680]LogClass: Warning: In asset 'None', there is an enum property of type 'EAutoReceiveInput' with an invalid value of ''
+[2019.01.26-20.21.25:110][958]BlueprintLog: New page: Compile Badguy
+[2019.01.26-20.21.26:392][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Badguy" FILE="../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Content/ThirdPersonBP/Blueprints/Badguy.uasset" SILENT=true
+[2019.01.26-20.21.26:768][  5]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/Badguy196B444D4CA6BD05D082A18EB891D57F.tmp' to '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Content/ThirdPersonBP/Blueprints/Badguy.uasset'
+[2019.01.26-20.21.29:932][170]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-20.21.29:975][170]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel' with GeneratedClass '/Game/Maps/GGJlevel.GGJlevel_C' with ClassGeneratedBy '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel'
+[2019.01.26-20.21.29:975][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-20.21.29:990][170]PIE: New page: PIE session: GGJlevel (Jan 26, 2019, 8:21:29 AM)
+[2019.01.26-20.21.29:990][170]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GGJlevel
+[2019.01.26-20.21.30:122][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132671s)
+[2019.01.26-20.21.30:125][170]LogAIModule: Creating AISystem for world GGJlevel
+[2019.01.26-20.21.30:125][170]LogPlayLevel: PIE: World Init took: (0.003058s)
+[2019.01.26-20.21.30:125][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GGJlevel.GGJlevel to /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel (0.136431s)
+[2019.01.26-20.21.30:220][170]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-20.21.30:241][170]LogInit: FAudioDevice initialized.
+[2019.01.26-20.21.30:341][170]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.26-20.21.30:356][170]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel up for play (max tick rate 60) at 2019.01.26-14.21.30
+[2019.01.26-20.21.30:361][170]LogWorld: Bringing up level for play took: 0.014641
+[2019.01.26-20.21.30:433][170]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 10 classes and 0 folders.
+[2019.01.26-20.21.30:445][170]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_2
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.30:446][170]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.30:446][170]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_2
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.30:446][170]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.30:447][170]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GGJlevel 1.446
+[2019.01.26-20.21.30:448][170]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel' with GeneratedClass '/Game/Maps/GGJlevel.GGJlevel_C' with ClassGeneratedBy '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel'
+[2019.01.26-20.21.31:432][205]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.31:432][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.31:432][205]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.31:433][205]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.32:436][265]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.32:436][265]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.32:436][265]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.32:436][265]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.33:437][325]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_2
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.33:437][325]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.33:437][325]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_2
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.33:438][325]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.34:439][385]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_3
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.34:439][385]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.34:439][385]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_3
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.34:439][385]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.35:445][445]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.35:445][445]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.35:445][445]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.35:445][445]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.36:461][505]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_5
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.36:461][505]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.36:461][505]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_5
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.36:462][505]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.37:463][562]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_6
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.37:464][562]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.37:464][562]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_6
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.37:464][562]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.38:465][622]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_7
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.38:465][622]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.38:465][622]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_7
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.38:466][622]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.39:466][682]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_8
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.39:466][682]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.39:466][682]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_8
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.39:466][682]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.40:466][742]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_9
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.40:466][742]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.40:466][742]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_9
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.40:466][742]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.41:486][802]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_10
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.41:486][802]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.41:486][802]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_10
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.41:486][802]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.42:512][862]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_11
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.42:512][862]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.42:512][862]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_11
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.42:512][862]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.43:521][912]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_12
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.43:521][912]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.43:521][912]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_12
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.43:521][912]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.44:521][971]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_13
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.44:522][971]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.44:522][971]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_13
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.44:522][971]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.45:524][ 31]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_14
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.45:524][ 31]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.45:524][ 31]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_14
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.45:524][ 31]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.46:534][ 91]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_15
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.46:537][ 91]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.46:538][ 91]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_15
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.46:539][ 91]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.47:553][147]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_16
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.47:554][147]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.47:554][147]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_16
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.47:554][147]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.48:561][201]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_17
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.48:562][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.48:562][201]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_17
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.48:562][201]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.49:568][254]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_18
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.49:568][254]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.49:568][254]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_18
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.49:569][254]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.50:581][306]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_19
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.50:581][306]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.50:581][306]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_19
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.50:582][306]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.51:210][338]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel' with GeneratedClass '/Game/Maps/GGJlevel.GGJlevel_C' with ClassGeneratedBy '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel'
+[2019.01.26-20.21.51:211][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-20.21.51:281][338]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-20.21.51:282][338]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel' with GeneratedClass '/Game/Maps/GGJlevel.GGJlevel_C' with ClassGeneratedBy '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel'
+[2019.01.26-20.21.51:345][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-20.21.51:396][339]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.01.26-20.21.52:380][376]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-20.21.52:431][376]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel' with GeneratedClass '/Game/Maps/GGJlevel.GGJlevel_C' with ClassGeneratedBy '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel'
+[2019.01.26-20.21.52:432][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-20.21.52:432][376]PIE: New page: PIE session: GGJlevel (Jan 26, 2019, 8:21:52 AM)
+[2019.01.26-20.21.52:433][376]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GGJlevel
+[2019.01.26-20.21.52:458][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024984s)
+[2019.01.26-20.21.52:458][376]LogAIModule: Creating AISystem for world GGJlevel
+[2019.01.26-20.21.52:459][376]LogPlayLevel: PIE: World Init took: (0.001151s)
+[2019.01.26-20.21.52:459][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GGJlevel.GGJlevel to /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel (0.026384s)
+[2019.01.26-20.21.52:523][376]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-20.21.52:549][376]LogInit: FAudioDevice initialized.
+[2019.01.26-20.21.52:549][376]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-20.21.52:592][376]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.26-20.21.52:607][376]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel up for play (max tick rate 60) at 2019.01.26-14.21.52
+[2019.01.26-20.21.52:611][376]LogWorld: Bringing up level for play took: 0.015582
+[2019.01.26-20.21.52:633][376]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_2
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.52:633][376]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.52:634][376]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_2
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.52:634][376]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.52:634][376]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GGJlevel -0.367
+[2019.01.26-20.21.52:635][376]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel' with GeneratedClass '/Game/Maps/GGJlevel.GGJlevel_C' with ClassGeneratedBy '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel'
+[2019.01.26-20.21.53:551][411]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.53:551][411]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.53:551][411]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.53:551][411]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.54:555][471]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.54:555][471]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.54:555][471]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_1
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.54:555][471]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.55:555][531]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_2
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.55:555][531]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.55:555][531]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_2
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.55:555][531]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.56:559][591]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_3
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.56:560][591]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.56:560][591]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_3
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.56:560][591]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.57:562][651]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.57:562][651]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.57:562][651]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_4
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.57:562][651]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.58:579][711]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_5
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.58:580][711]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.58:580][711]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_5
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.58:580][711]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.59:316][755]LogHttp: Warning: 000001EC5C717B00: request failed, libcurl error: 35 (SSL connect error)
+[2019.01.26-20.21.59:316][755]LogHttp: Warning: 000001EC5C717B00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.01.26-20.21.59:316][755]LogHttp: Warning: 000001EC5C717B00: libcurl info message cache 1 (  Trying 52.54.203.96...)
+[2019.01.26-20.21.59:316][755]LogHttp: Warning: 000001EC5C717B00: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.01.26-20.21.59:316][755]LogHttp: Warning: 000001EC5C717B00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.54.203.96) port 443 (#4))
+[2019.01.26-20.21.59:316][755]LogHttp: Warning: 000001EC5C717B00: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.01.26-20.21.59:316][755]LogHttp: Warning: 000001EC5C717B00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.01.26-20.21.59:316][755]LogHttp: Warning: 000001EC5C717B00: libcurl info message cache 6 (SSL re-using session ID)
+[2019.01.26-20.21.59:316][755]LogHttp: Warning: 000001EC5C717B00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2019.01.26-20.21.59:316][755]LogHttp: Warning: 000001EC5C717B00: libcurl info message cache 8 (TLSv1.0 (OUT), TLS alert, Server hello (2):)
+[2019.01.26-20.21.59:316][755]LogHttp: Warning: 000001EC5C717B00: libcurl info message cache 9 (error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number)
+[2019.01.26-20.21.59:316][755]LogHttp: Warning: 000001EC5C717B00: libcurl info message cache 10 (Closing connection 4)
+[2019.01.26-20.21.59:593][771]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_6
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.21.59:593][771]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.21.59:593][771]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_6
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.21.59:594][771]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.22.00:603][831]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_7
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.22.00:603][831]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.22.00:603][831]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_7
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.22.00:605][831]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.22.01:616][891]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_8
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.22.01:616][891]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.22.01:617][891]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_8
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.22.01:618][891]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.22.02:550][945]LogCharacterMovement: Badguy_C_4 is stuck and failed to move! Velocity: X=7.00 Y=33.41 Z=0.00 Location: X=-26.99 Y=-128.86 Z=198.15 Normal: X=-0.97 Y=0.25 Z=0.00 PenetrationDepth:5.809 Actor:supplies_C_7 Component:Sphere BoneName:None (0 other events since notify)
+[2019.01.26-20.22.02:624][949]LogScript: Warning: Accessed None trying to read property house
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_9
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0054
+[2019.01.26-20.22.02:625][949]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property house". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.22.02:625][949]LogScript: Warning: Accessed None
+	Badguy_C /Game/Maps/UEDPIE_0_GGJlevel.GGJlevel:PersistentLevel.Badguy_C_9
+	Function /Game/ThirdPersonBP/Blueprints/Badguy.Badguy_C:ExecuteUbergraph_Badguy:0069
+[2019.01.26-20.22.02:625][949]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Badguy Function:  Execute Ubergraph Badguy Graph:  EventGraph Node:  Simple Move to Location
+[2019.01.26-20.22.03:132][975]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel' with GeneratedClass '/Game/Maps/GGJlevel.GGJlevel_C' with ClassGeneratedBy '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel'
+[2019.01.26-20.22.03:132][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-20.22.03:196][975]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-20.22.03:196][975]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel' with GeneratedClass '/Game/Maps/GGJlevel.GGJlevel_C' with ClassGeneratedBy '/Game/Maps/GGJlevel.GGJlevel:PersistentLevel.GGJlevel'
+[2019.01.26-20.22.03:285][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-20.22.03:381][976]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.01.26-20.22.18:208][733]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-20.22.20:083][739]LogSlate: Window 'Save Content' being destroyed
+[2019.01.26-20.22.29:107][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GGJlevel" FILE="../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Content/Maps/GGJlevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.26-20.22.29:780][739]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Saved/GGJlevel821550CF4D3FA3EC5C17B380D1F5CD43.tmp' to '../../../../../../Users/danie/Documents/GitHub/GGJ2019/GGJ2019/Content/Maps/GGJlevel.umap'
+[2019.01.26-20.22.29:900][739]LogFileHelpers: Saving map 'GGJlevel' took 9.787
+[2019.01.26-20.22.30:293][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.26-20.22.30:391][739]LogSlate: Window 'GGJ2019 - Unreal Editor' being destroyed
+[2019.01.26-20.22.30:393][739]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.26-20.22.30:853][740]Cmd: QUIT_EDITOR
+[2019.01.26-20.22.31:535][740]LogExit: Preparing to exit.
